@@ -57,7 +57,6 @@ type MemcachedStatus struct {
 	// +listMapKey=type
 	// +optional
 	Conditions []metav1.Condition `json:"conditions,omitempty"`
-	
 }
 
 // +kubebuilder:object:root=true

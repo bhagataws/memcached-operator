@@ -27,7 +27,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	cachev1alpha1 "example.com/m/api/v1alpha1"
+	cachev1alpha1 "example.com/memcached/api/v1alpha1"
 )
 
 var _ = Describe("Memcached Controller", func() {

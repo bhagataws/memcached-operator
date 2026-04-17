@@ -6,6 +6,8 @@ cliVersion: 4.13.1
 domain: example.com
 layout:
 - go.kubebuilder.io/v4
+plugins:
+  autoupdate.kubebuilder.io/v1-alpha: {}
 projectName: memcached-operator
 repo: example.com/m
 resources:

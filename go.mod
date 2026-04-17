@@ -1,4 +1,4 @@
-module example.com/m
+module example.com/memcached
 
 go 1.25.3
 
