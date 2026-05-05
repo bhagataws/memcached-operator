@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /*
 Copyright 2026 The Kubernetes authors.
 
@@ -14,6 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+>>>>>>> tmp-original-05-05-26-02-44
 package main
 
 import (
@@ -182,7 +185,7 @@ func main() {
 		Client: mgr.GetClient(),
 		Scheme: mgr.GetScheme(),
 	}).SetupWithManager(mgr); err != nil {
-		setupLog.Error(err, "Failed to create controller", "controller", "Memcached")
+		setupLog.Error(err, "Failed to create controller", "controller", "memcached")
 		os.Exit(1)
 	}
 	// +kubebuilder:scaffold:builder
